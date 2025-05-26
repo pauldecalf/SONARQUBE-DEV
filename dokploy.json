@@ -1,0 +1,10 @@
+{
+  "type": "compose",
+  "composeFile": "docker-compose.dokploy.yml",
+  "environment": {
+    "POSTGRES_USER": "sonar",
+    "POSTGRES_PASSWORD": "VotreMotDePasseSecurise123!",
+    "POSTGRES_DB": "sonar",
+    "SONAR_PORT": "9000"
+  }
+} 

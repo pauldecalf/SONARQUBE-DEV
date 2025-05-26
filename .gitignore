@@ -29,4 +29,8 @@ Thumbs.db
 # Certificats SSL
 *.pem
 *.key
-*.crt 
+*.crt
+
+# Git (éviter les problèmes avec Dokploy)
+.git/
+*.git 
