@@ -1,0 +1,32 @@
+# Variables d'environnement
+.env
+.env.local
+.env.production
+
+# Données Docker
+volumes/
+data/
+
+# Logs
+*.log
+logs/
+
+# Sauvegardes
+*.tar.gz
+*.sql
+backup/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Certificats SSL
+*.pem
+*.key
+*.crt 
